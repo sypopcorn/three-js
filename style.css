@@ -1,0 +1,187 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* :root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.vanilla:hover {
+  filter: drop-shadow(0 0 2em #f7df1eaa);
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
+
+/* // const geometry = new THREE.SphereGeometry(3,64,64)
+// const material = new THREE.MeshStandardMaterial({
+//     color: "#00ff54",
+// })
+
+//const mesh = new THREE.Mesh(geometry,material)
+//scene.add(mesh)
+
+// const light = new THREE.PointLight(0xffffff, 1,100)
+// light.position.set(0,10,10)
+// scene.add(light)
+
+// const camera = new THREE.PerspectiveCamera(45,innerWidth/innerHeight, 0.1,1000)
+// // camera.position.z=20
+// // scene.add(camera)
+
+// //const canvas = document.querySelector(".scene");
+//  const renderer = new THREE.WebGLRenderer();
+//  renderer.setSize( window.innerWidth, window.innerHeight );
+//document.body.appendChild( renderer.domElement );
+//  renderer.render(scene,camera)
+
+// const scene = new THREE.Scene();
+// const tictactoe = new TicTacToe();
+
+// class TicTacToe{
+//     constructor(){
+//         this.board = new THREE.Group();
+//         this.boardpoles = new THREE.Group();
+//         this.board.add(this.boardpoles);
+//         this._createBoard();
+//     }
+// }
+
+// _createBoard(){
+//     co
+// }
+
+// const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+
+// const renderer = new THREE.WebGLRenderer();
+// renderer.setSize(window.innerWidth, window.innerHeight);
+// document.body.appendChild(renderer.domElement);
+
+// const geometry = new THREE.BoxGeometry(1, 1, 1);
+// const material = new THREE.MeshBasicMaterial({ color: 0x030467 });
+// const cube1 = new THREE.Mesh(geometry, material);
+// scene.add(cube1);
+
+// camera.position.z = 5;
+
+// function animate() {
+//     requestAnimationFrame(animate);
+
+//     cube1.rotation.x += 0.01;
+//     cube1.rotation.y += 0.01;
+
+//     renderer.render(scene, camera);
+// };
+
+// animate();
+// const renderer = new THREE.WebGLRenderer();
+// renderer.setSize( window.innerWidth, window.innerHeight );
+// document.body.appendChild( renderer.domElement );
+
+// const camera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 1, 500 );
+// camera.position.set( 0, 0, 55 );
+// camera.lookAt( 0, 0, 0 );
+// const material = new THREE.LineBasicMaterial( { color: 0x0000ff } );
+// const points = [];
+// points.push( new THREE.Vector3( - 10, 0, 0 ) );
+// points.push( new THREE.Vector3( 0, 10, 0 ) );
+// points.push( new THREE.Vector3( 10, 0, 0 ) );
+
+// const geometry = new THREE.BufferGeometry().setFromPoints( points );
+// const line = new THREE.Line( geometry, material );
+// scene.add( line );
+// renderer.render( scene, camera );\ */
